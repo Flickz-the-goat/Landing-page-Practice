@@ -1,0 +1,117 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    padding:0px; 
+}
+.header, .footer, .hero{
+    font-family: 'Times New Roman', Times, serif, sans-serif; 
+    background-color: #1F2937;
+    color: white; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px 300px; 
+}
+.info{
+    font-size: 36px;
+    background-color: white; 
+    padding:0px 300px;
+    display:flex; 
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}   
+.quote{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #E5e7eb;
+    padding: 100px 300px; 
+    font-size: 36px; 
+    font-style: italic;
+    color: #1F2937; 
+}
+ul{
+    display: flex; 
+    list-style-type: none;
+    gap: 10px; 
+    margin:0px;
+    padding: 0px; 
+}
+.footer{
+    justify-content: center;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    padding: 50px 0px;
+}
+.main{
+    font-size:48px;
+    font-weight: 900;
+    margin:0px;
+}
+.herob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 80px;
+    font-size: 15px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10%;
+    padding:10px;
+}
+.hero{
+    gap: 90px; 
+}
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto; 
+}
+.pic{
+    height: 200px;
+    width:200px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0; 
+}
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.slots{
+    display:flex; 
+    font-size:15px;
+    gap:10px; 
+}
+.contact{
+    padding:100px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display:flex; 
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 60px; 
+    width: 800px;
+    color:white; 
+    align-items: center;
+    justify-content: space-between;
+}
+#two{
+    border-width: 20px;
+    border-color: white;
+}
